@@ -186,15 +186,15 @@ section.after {
   -webkit-user-select: halaman1;
 }
 
-.judul {
+.judul, .judul1 {
   color: white;
   font-weight: 500;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  margin: 0;
-  line-height: 70px;
-  -webkit-user-select: halaman1;
+  margin: 5px 0;
+  line-height: 25px;
+  -webkit-user-select: none;
 }
 
 .page-halaman1 section.halaman1 {
@@ -300,5 +300,5 @@ section.after {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 360px) {
 }
